@@ -16,11 +16,7 @@ export default function Home() {
             : "გვერდი იტვირთება..."}
         </h2>
         {3 + 7}
-
-        
       </main>
     </>
   );
 }
-
-dsadas
