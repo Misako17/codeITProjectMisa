@@ -1,0 +1,11 @@
+.footer {
+  padding: 15px 20px;
+  background-color: rgb(148, 203, 215);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 80vw;
+  margin: 15px;
+  border-radius: 30px;
+}
