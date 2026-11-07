@@ -8,14 +8,14 @@ export default function Home() {
   return (
     <>
       <main className={styles.main}>
-        <h1 className={styles.title}>გამარჯობა, {name || "Unknown"}</h1>
+        {/* <h1 className={styles.title}>გამარჯობა, {name || "Unknown"}</h1> */}
         {/* <h2>{isLoaded && "მთავარი გვერდი ჩაიტვირთა!"}</h2> */}
-        <h2>
+        {/* <h2>
           {isLoaded === true
             ? "მთავარი გვერდი ჩაიტვირთა"
             : "გვერდი იტვირთება..."}
         </h2>
-        {3 + 7}
+        {3 + 7} */}
       </main>
     </>
   );

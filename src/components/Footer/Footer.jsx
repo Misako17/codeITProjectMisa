@@ -1,9 +1,10 @@
+import React from "react";
 import styles from "./Footer.module.css";
-
-function Footer() {
+const t = new Date().getFullYear();
+export default function Footer() {
   return (
-    <footer style={footerStyle}>
-      <p>© All Rights Reserved | {new Date().getFullYear()}</p>
+    <footer className={styles.footer}>
+      <p>© All Rights Reserved | {t}</p>
     </footer>
   );
 }
